@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clone the repository from GitHub
-                git 'https://github.com/your-username/SeleniumJenkinsExample.git'
+                git 'https://github.com/akshitrajpatel/SeleniumJenkinsExample.git'
             }
         }
 
